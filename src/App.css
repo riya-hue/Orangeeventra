@@ -1,0 +1,18 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ff8800; /* outer orange */
+}
+
+.main-content {
+  flex: 1;
+  background-color: #fff2e0; /* inner peach */
+  padding: 30px;
+  margin: 20px;
+  border-radius: 12px;
+}
+
+h1, h2, h3 {
+  color: #cc5500;
+}
